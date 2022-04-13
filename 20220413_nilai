@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    
+  int nilai;
+  string keterangan;
+    cout<<"Masukkan Nilai=";cin>>nilai;
+    
+    if (nilai>100 || nilai<0){
+        keterangan="Diluar_Jangkauan";
+    }
+    else if (nilai>=90){
+        keterangan="Sangat_memuaskan";
+    }
+    else if(nilai>=80){
+        keterangan="Memuaskan";
+    }
+    else if (nilai>=75){
+        keterangan="cukup";
+    }
+    else {
+        keterangan="Tidak lulus";
+    }
+    
+}
