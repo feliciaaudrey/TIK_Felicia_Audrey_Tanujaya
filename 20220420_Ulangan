@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+float nilaia, nilaib, nilaic, totalnilai;
+    cout<<"Masukkan Nilai Tugas=";cin>>nilaia;
+    if (nilaia>100)
+    cout<<"Nilai tidak boleh lebih dari 100";
+    else
+    cout<<"Masukkan Nilai UTS=";cin>>nilaib;
+    if (nilaib>100)
+    cout<<"Nilai tidak boleh lebih dari 100";
+    else
+    cout<<"Masukkan Nilai UAS=";cin>>nilaic;
+    if (nilaic>100)
+    cout<<"Nilai tidak boleh lebih dari 100";
+    totalnilai=(nilaia*0.3+nilaib*0.3+nilaic*0.4);
+    if (totalnilai>100)
+    cout<<"Nilai tidak boleh lebih dari 100";
+    else
+    cout<<"Total Nilai ="<<totalnilai<<endl;
+}
