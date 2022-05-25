@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int a, b, c;
+    float D;
+    cout<< "Rumus ABC"<<endl<<" "<<endl;
+    cout<< "Masukkan Nilai a:";cin>>a;
+    
+    if (a==0){
+        cout<<"Masukkan Ulang Nilai a:";cin>>a;
+    }
+    while (a==0){
+        cout <<"Masukkan Ulang Nilai a:";cin>>a;
+        }
+    cout<<"Masukkan b:";cin>>b;
+    cout<<"Masukkan c:";cin>>c;
+    
+    D = (b^2)-(4*a*c);
+    cout <<"Nilai D ="<<D<<endl;
+    if(D==0){
+        cout<<"Persamaan Mempunyai Akar Kembar"<<endl;
+    }
+    else if (D>0){
+        cout<<"Persamaan Mempunyai Akar Real"<<endl;
+    }
+    else if (D<0){
+    cout<<"Persamaan Mempunyai Akar Imajiner"<<endl;
+    }
+    
+    }
